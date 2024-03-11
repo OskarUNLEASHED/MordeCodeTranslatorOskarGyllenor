@@ -6,7 +6,7 @@ public class MorseCodeConverter {
     private static final Map<String, Character> morseToChar = new HashMap<>();
 
     static {
-        // Initialize English to Morse code mappings
+
         charToMorse.put('A', ".-");
         charToMorse.put('B', "-...");
         charToMorse.put('C', "-.-.");
@@ -45,8 +45,6 @@ public class MorseCodeConverter {
         charToMorse.put('8', "---..");
         charToMorse.put('9', "----.");
 
-
-        // Initialize Morse to English mappings
         for (Map.Entry<Character, String> entry : charToMorse.entrySet()) {
             morseToChar.put(entry.getValue(), entry.getKey());
         }

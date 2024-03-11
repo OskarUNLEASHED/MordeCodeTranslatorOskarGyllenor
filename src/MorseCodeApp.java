@@ -4,7 +4,7 @@ public class MorseCodeApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Welcome to the magical Morsecode translator! Use it's power wisely");
+        System.out.println("Welcome to the magical Morsecode translator! Use its power wisely");
         System.out.println("Enter E for English to Morse conversion or M for Morse to English:");
 
         String choice = scanner.nextLine();
